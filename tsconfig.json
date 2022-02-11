@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "jsx": "react",
-    "module": "esnext",
+    "target": "ES5",
+    "module": "ESNext",
     "moduleResolution": "node",
-    "lib": ["dom", "esnext"],
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "noEmit": false,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "strict": true,
-    "sourceMap": true,
-    "target": "esnext"
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   },
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"]
 }
