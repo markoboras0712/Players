@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 1px 2px 5px 2px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
-  color: darkblue;
+    color: darkblue;
+    background-color: #D3D3D3;
 }

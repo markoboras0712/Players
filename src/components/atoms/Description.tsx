@@ -1,8 +1,7 @@
 export const Description: React.FC = () => {
-    return (
-      <>
-        <p>Atom</p>
-      </>
-    );
-  };
-  
+  return (
+    <>
+      <p>Atom</p>
+    </>
+  );
+};
