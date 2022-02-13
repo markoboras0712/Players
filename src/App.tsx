@@ -1,12 +1,11 @@
-import React from 'react';
-import Counter from './Counter';
+import { Fragment } from 'react';
+import { Routing } from 'router';
 
 const App = () => {
   return (
-    <div>
-      <h1>Create React App from Scratch Using Typescript..!!</h1>
-      <Counter />
-    </div>
+    <Fragment>
+      <Routing />
+    </Fragment>
   );
 };
 export default App;

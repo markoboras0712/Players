@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "ESNext",
+    "baseUrl": "src",
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "lib": ["DOM", "ESNext"],
     "jsx": "react-jsx",
     "noEmit": false,
@@ -13,5 +15,5 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*"]
+  "include": ["src"]
 }

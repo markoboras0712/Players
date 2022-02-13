@@ -1,5 +1,6 @@
 import { Router, RouteComponentProps } from '@reach/router';
-// import { Routes } from 'fixtures';
+import { Home, NotFound, PlayerDetail, CreatePlayer } from 'pages';
+import { Routes } from 'router';
 
 const RouterPage = (
   props: { pageComponent: JSX.Element } & RouteComponentProps,
@@ -7,18 +8,11 @@ const RouterPage = (
 
 export const Routing: React.FC = () => {
   return (
-    // <Router>
-    //   <RouterPage path={Routes.Login} pageComponent={<Login />} />
-    //   <RouterPage path={Routes.Register} pageComponent={<Registration />} />
-    //   <RouterPage
-    //     path={Routes.ForgotPassword}
-    //     pageComponent={<ForgotPassword />}
-    //   />
-    //   <RouterPage path={Routes.Messages} pageComponent={<AllMessages />} />
-    //   <RouterPage path={Routes.Contacts} pageComponent={<Contacts />} />
-    //   <RouterPage path={Routes.Message} pageComponent={<Chat />} />
-    //   <RouterPage path={Routes.NotFound} pageComponent={<NotFound />} />
-    // </Router>
-    <p>bit ce router</p>
+    <Router>
+      <RouterPage path={Routes.Main} pageComponent={<Home />} />
+      <RouterPage path={Routes.CreatePlayer} pageComponent={<CreatePlayer />} />
+      <RouterPage path={Routes.Player} pageComponent={<PlayerDetail />} />
+      <RouterPage path={Routes.NotFound} pageComponent={<NotFound />} />
+    </Router>
   );
 };

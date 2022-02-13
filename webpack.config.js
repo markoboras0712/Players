@@ -1,5 +1,5 @@
 const prod = process.env.NODE_ENV === 'production';
-
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -16,6 +16,7 @@ module.exports = {
         exclude: /node_modules/,
         resolve: {
           extensions: ['.ts', '.tsx', '.js', '.json'],
+          modules: [path.resolve(__dirname, 'src'), './node_modules'],
         },
         use: 'ts-loader',
       },
