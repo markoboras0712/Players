@@ -1,8 +1,14 @@
+import { CenteredWrapper, FlexRow, Player } from 'components';
+
 export const PlayerList: React.FC = () => {
-    return (
-      <>
-        <p>Organism</p>
-      </>
-    );
-  };
-  
+  return (
+    <CenteredWrapper>
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+      <Player />
+    </CenteredWrapper>
+  );
+};

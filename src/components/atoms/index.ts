@@ -3,3 +3,8 @@ export * from './Input';
 export * from './Svg';
 export * from './Flex';
 export * from './Container';
+export * from './Description';
+export * from './Details';
+export * from './Heading';
+export * from './Image';
+export * from './Paragraph';

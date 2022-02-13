@@ -1,8 +1,5 @@
-export const Paragraph: React.FC = () => {
-    return (
-      <>
-        <p>Atom</p>
-      </>
-    );
-  };
-  
+import styled from 'styled-components';
+
+export const Paragraph = styled.p`
+  color: #dcdcdc;
+`;

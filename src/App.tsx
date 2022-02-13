@@ -1,10 +1,14 @@
 import { Fragment } from 'react';
 import { Routing } from 'router';
+import { GlobalStyle } from 'styles/global';
 
 const App = () => {
   return (
     <Fragment>
-      <Routing />
+      <GlobalStyle />
+      <div>
+        <Routing />
+      </div>
     </Fragment>
   );
 };

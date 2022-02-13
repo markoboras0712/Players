@@ -1,2 +1,2 @@
 export * from './HeaderSearchAdd';
-export * from './SearchButton';
+export * from './Player';

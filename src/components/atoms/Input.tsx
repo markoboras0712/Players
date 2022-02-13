@@ -7,6 +7,7 @@ export const SearchInput = styled.input.attrs(() => ({
   background-clip: padding-box;
   border: 1px solid #ced4da;
   height: 40px;
+  padding: 10px;
   ::placeholder,
   ::-webkit-input-placeholder {
     opacity: 0.2;

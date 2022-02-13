@@ -1,8 +1,5 @@
-export const Heading: React.FC = () => {
-    return (
-      <>
-        <p>Atom</p>
-      </>
-    );
-  };
-  
+import styled from 'styled-components';
+
+export const Heading = styled.h3`
+  color: white;
+`;
