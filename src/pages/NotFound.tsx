@@ -1,7 +1,15 @@
+import {
+  AddPlayerAnchor,
+  Anchor,
+  CenteredFlexbox,
+  ErrorAnchor,
+} from 'components';
+import { Routes } from 'router';
+
 export const NotFound: React.FC = () => {
   return (
-    <>
-      <p>Not Found Page</p>
-    </>
+    <CenteredFlexbox>
+      <ErrorAnchor to={Routes.Main}>Go back to main page</ErrorAnchor>
+    </CenteredFlexbox>
   );
 };

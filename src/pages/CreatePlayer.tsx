@@ -1,11 +1,13 @@
 import { Link } from '@reach/router';
+import { CreatePlayerHeader, FlexColumn } from 'components';
+import { CreatePlayerForm } from 'components/organisms/CreatePlayerForm';
 import { Routes } from 'router';
 
 export const CreatePlayer: React.FC = () => {
   return (
-    <>
-      <p>Page</p>
-      <Link to={Routes.Main}>BACK</Link>
-    </>
+    <FlexColumn>
+      <CreatePlayerHeader />
+      <CreatePlayerForm />
+    </FlexColumn>
   );
 };

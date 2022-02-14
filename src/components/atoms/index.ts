@@ -10,3 +10,4 @@ export * from './Image';
 export * from './Paragraph';
 export * from './Button';
 export * from './Select';
+export * from './Description';

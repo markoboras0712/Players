@@ -22,6 +22,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 60px;
   align-items: center;
   background-color: #708090;
   padding: 10px 25px;
@@ -35,6 +36,13 @@ export const HeaderContainer = styled.div`
 export const PlayerContainer = styled.div`
   display: flex;
   flex-direction: column;
+`;
+
+export const PlayerDetailContainer = styled(PlayerContainer)`
+  background-color: white;
+  height: 100vh;
+  padding: 40px;
+  row-gap: 40px;
 `;
 
 export const PlayerFooterContainer = styled.div`

@@ -1,23 +1,24 @@
 import {
-  Header,
+  MainHeader,
   FlexColumn,
   Player,
   Button,
   CenteredFlexbox,
   Select,
   SelectMenu,
+  HorizontallyCenteredFlexbox,
 } from 'components';
 import { PlayerList } from 'components/organisms/PlayerList';
 
 export const Home: React.FC = () => {
   return (
     <FlexColumn>
-      <Header />
+      <MainHeader />
       <SelectMenu />
       <PlayerList />
-      <CenteredFlexbox>
+      <HorizontallyCenteredFlexbox>
         <Button type="button">Load more</Button>
-      </CenteredFlexbox>
+      </HorizontallyCenteredFlexbox>
     </FlexColumn>
   );
 };

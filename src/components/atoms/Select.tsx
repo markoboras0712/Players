@@ -5,6 +5,7 @@ export const Select = styled.select`
   border: none;
   border-radius: 4px;
   color: black;
+  background-color: #D3D3D3;
   width: (100% - 250px);
 `;
 

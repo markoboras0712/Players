@@ -1,7 +1,5 @@
-export const Description: React.FC = () => {
-  return (
-    <>
-      <p>Atom</p>
-    </>
-  );
-};
+import styled from 'styled-components';
+
+export const Description = styled.h3`
+  color: gray;
+`;

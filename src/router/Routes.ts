@@ -1,6 +1,6 @@
 export enum Routes {
   Main = '/',
   CreatePlayer = '/create-player',
-  Player = '/player',
+  Player = '/playerDendi',
   NotFound = '*',
 }

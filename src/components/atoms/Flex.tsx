@@ -24,9 +24,16 @@ export const MarginLeftRow = styled(FlexRow)`
   }
 `;
 
-export const CenteredFlexbox = styled.div`
+export const HorizontallyCenteredFlexbox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
+`;
+
+export const CenteredFlexbox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 `;
