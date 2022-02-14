@@ -56,22 +56,3 @@ export const PlayerInformationContainer = styled.div`
   flex-wrap: wrap;
   padding: 10px 3px 0px 10px;
 `;
-
-/**const Link = ({ className, children }) => (
-  <a className={className}>
-    {children}
-  </a>
-);
-
-const StyledLink = styled(Link)`
-  color: palevioletred;
-  font-weight: bold;
-`;
-
-render(
-  <div>
-    <Link>Unstyled, boring Link</Link>
-    <br />
-    <StyledLink>Styled, exciting Link</StyledLink>
-  </div>
-); */

@@ -8,3 +8,5 @@ export * from './Details';
 export * from './Heading';
 export * from './Image';
 export * from './Paragraph';
+export * from './Button';
+export * from './Select';

@@ -23,3 +23,10 @@ export const MarginLeftRow = styled(FlexRow)`
     gap: 0;
   }
 `;
+
+export const CenteredFlexbox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+`;
