@@ -22,15 +22,19 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 60px;
   align-items: center;
   background-color: #708090;
   padding: 10px 25px;
-  @media (max-width: 590px) {
+  @media (max-width: 660px) {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
   }
+`;
+
+export const PlayerHeaderContainer = styled(HeaderContainer)`
+  height: 60px;
 `;
 
 export const PlayerContainer = styled.div`

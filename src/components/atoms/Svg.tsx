@@ -6,14 +6,14 @@ export const PlusSvg = styled(PlusIcon)`
   height: 30px;
   width: 30px;
   cursor: pointer;
-  @media (max-width: 590px) {
+  @media (max-width: 660px) {
     display: none;
   }
 `;
 
 export const SearchSvg = styled(SearchIcon)`
   cursor: pointer;
-  @media (max-width: 710px) {
+  @media (max-width: 720px) {
     display: none;
   }
 `;

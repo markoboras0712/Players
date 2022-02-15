@@ -11,3 +11,5 @@ export * from './Paragraph';
 export * from './Button';
 export * from './Select';
 export * from './Description';
+export * from './Form';
+export * from './Label';

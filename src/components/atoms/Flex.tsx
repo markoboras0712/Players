@@ -15,12 +15,13 @@ export const FlexColumn = styled.div`
 export const MarginLeftRow = styled(FlexRow)`
   margin-left: auto;
   gap: 30px;
-  @media (max-width: 590px) {
+  @media (max-width: 530px) {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    gap: 0;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
   }
 `;
 

@@ -1,8 +1,7 @@
-export const Form: React.FC = () => {
-    return (
-      <>
-        <p>Atom</p>
-      </>
-    );
-  };
-  
+import styled from 'styled-components';
+
+export const Form = styled.form`
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  padding: 20px;
+`;

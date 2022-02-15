@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
   return (
     <FlexColumn>
       <MainHeader />
-      <SelectMenu />
+      {/* <SelectMenu /> */}
       <PlayerList />
       <HorizontallyCenteredFlexbox>
         <Button type="button">Load more</Button>

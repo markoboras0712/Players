@@ -16,3 +16,34 @@ export const SearchInput = styled.input.attrs(() => ({
     opacity: 0.2;
   }
 `;
+
+export const Input = styled.input.attrs((props) => ({
+  type: 'text',
+  size: props.size || '1em',
+}))`
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: ${(props) => props.size};
+  padding: ${(props) => props.size};
+`;
+
+
+export const NumberInput = styled.input.attrs((props) => ({
+  type: 'number',
+  size: props.size || '1em',
+}))`
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: ${(props) => props.size};
+  padding: ${(props) => props.size};
+`;
+
+export const FileInput = styled.input.attrs((props) => ({
+  type: 'file',
+  size: props.size || '1em',
+}))`
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: ${(props) => props.size};
+  padding: ${(props) => props.size};
+`;
