@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const Heading = styled.h1`
-  color: #dcdcdc;
+  color: ${(props) => props.color || '#white'};
 `;
-export const PlayerDetailHeading = styled.h3`
-  color: gray;
+export const PlayerDetailHeading = styled(Heading)`
   font-size: 36px;
 `;

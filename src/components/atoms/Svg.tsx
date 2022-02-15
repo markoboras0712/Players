@@ -17,5 +17,3 @@ export const SearchSvg = styled(SearchIcon)`
     display: none;
   }
 `;
-
-//480, 768, 1024

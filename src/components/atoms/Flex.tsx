@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const FlexRow = styled.div`
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
 `;
 
 export const FlexColumn = styled.div`
@@ -14,6 +12,7 @@ export const FlexColumn = styled.div`
 
 export const MarginLeftRow = styled(FlexRow)`
   margin-left: auto;
+  align-items: center;
   gap: 30px;
   @media (max-width: 530px) {
     display: flex;
@@ -25,15 +24,13 @@ export const MarginLeftRow = styled(FlexRow)`
   }
 `;
 
-export const HorizontallyCenteredFlexbox = styled.div`
-  display: flex;
+export const HorizontallyCenteredFlexbox = styled(FlexRow)`
   align-items: center;
   justify-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 `;
 
-export const CenteredFlexbox = styled.div`
-  display: flex;
+export const CenteredFlexbox = styled(FlexRow)`
   align-items: center;
   justify-content: center;
   height: 100vh;

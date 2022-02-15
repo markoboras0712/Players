@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const SearchInput = styled.input.attrs(() => ({
-  // we can define static props
   type: 'search',
 }))`
   background-clip: padding-box;
@@ -26,7 +25,6 @@ export const Input = styled.input.attrs((props) => ({
   margin: ${(props) => props.size};
   padding: ${(props) => props.size};
 `;
-
 
 export const NumberInput = styled.input.attrs((props) => ({
   type: 'number',

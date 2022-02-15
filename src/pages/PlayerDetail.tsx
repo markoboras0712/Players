@@ -1,11 +1,9 @@
-import { Link } from '@reach/router';
-import { FlexColumn, PlayerDetailHeader, PlayerInformation } from 'components';
-import { Routes } from 'router';
+import { FlexColumn, Header, PlayerInformation } from 'components';
 
 export const PlayerDetail: React.FC = () => {
   return (
     <FlexColumn>
-      <PlayerDetailHeader />
+      <Header playerDetailPage />
       <PlayerInformation />
     </FlexColumn>
   );

@@ -1,15 +1,16 @@
-import {
-  AddPlayerAnchor,
-  Anchor,
-  CenteredFlexbox,
-  ErrorAnchor,
-} from 'components';
+import { CenteredFlexbox, ErrorAnchor, Header } from 'components';
+import { Fragment } from 'react';
 import { Routes } from 'router';
 
 export const NotFound: React.FC = () => {
   return (
-    <CenteredFlexbox>
-      <ErrorAnchor to={Routes.Main}>Go back to main page</ErrorAnchor>
-    </CenteredFlexbox>
+    <Fragment>
+      <Header playerDetailPage />
+      <CenteredFlexbox>
+        <ErrorAnchor to={Routes.Main} color={'black'}>
+          Go back to main page
+        </ErrorAnchor>
+      </CenteredFlexbox>
+    </Fragment>
   );
 };

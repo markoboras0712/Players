@@ -9,29 +9,18 @@ export const Button = styled.button`
   border-radius: 5px;
   padding: 10px 30px;
   border: none;
-  :active {
-    background-color: #1288ff;
-  }
 `;
 
 interface Props {
   text: string;
   loading?: boolean;
   onClick?: (event: React.FormEvent) => void;
-  onSubmit?: () => void;
-  style?: React.CSSProperties;
-  disabled?: boolean;
 }
 
-export const LoadingButton: React.FC<Props> = ({
-  text,
-  loading,
-  onClick,
-  onSubmit,
-}) => {
+export const LoadingButton: React.FC<Props> = ({ text, loading, onClick }) => {
   return (
-    <Button onClick={onClick} onSubmit={onSubmit}>
-      {loading ? <p>loading...</p> : text}
+    <Button onClick={onClick}>
+      {loading ? <i className="fa fa-spinner fa-spin"></i> : text}
     </Button>
   );
 };

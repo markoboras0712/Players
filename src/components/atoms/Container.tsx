@@ -1,6 +1,15 @@
 import styled from 'styled-components';
 
-export const CenteredWrapper = styled.div`
+const FlexRow = styled.div`
+  display: flex;
+`;
+
+const FlexColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 50px;
@@ -17,7 +26,7 @@ export const CenteredWrapper = styled.div`
     grid-template-columns: auto;
   }
 `;
-//480, 768, 1024
+
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -37,22 +46,13 @@ export const PlayerHeaderContainer = styled(HeaderContainer)`
   height: 60px;
 `;
 
-export const PlayerContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-export const PlayerDetailContainer = styled(PlayerContainer)`
-  background-color: white;
+export const PlayerDetailContainer = styled(FlexColumn)`
   height: 100vh;
   padding: 40px;
   row-gap: 40px;
 `;
 
-export const PlayerFooterContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+export const PlayerFooterContainer = styled(FlexRow)`
   align-items: center;
   width: 300px;
   background-color: #708090;
@@ -62,9 +62,6 @@ export const PlayerFooterContainer = styled.div`
   }
 `;
 
-export const PlayerInformationContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+export const PlayerInformationContainer = styled(FlexColumn)`
   padding: 10px 3px 0px 10px;
 `;

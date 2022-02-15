@@ -1,3 +1,3 @@
-export * from './MainHeader';
-export * from './PlayerDetailHeader';
-export * from './CreatePlayerHeader';
+export * from './Header';
+export * from './CreatePlayerForm';
+export * from './PlayerList';

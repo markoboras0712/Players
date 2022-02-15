@@ -1,17 +1,14 @@
 import {
-  Button,
   CenteredFlexbox,
   FileInputWithLabel,
   FlexColumn,
   Form,
   HorizontallyCenteredFlexbox,
-  Input,
   InputWithLabel,
-  Label,
   LoadingButton,
   NumberInputWithLabel,
 } from 'components';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ReactFlagsSelect from 'react-flags-select';
 
 export const CreatePlayerForm: React.FC = () => {

@@ -1,15 +1,11 @@
 import {
-  MainHeader,
   FlexColumn,
-  Player,
-  Button,
-  CenteredFlexbox,
-  Select,
   SelectMenu,
   HorizontallyCenteredFlexbox,
   LoadingButton,
+  Header,
+  PlayerList,
 } from 'components';
-import { PlayerList } from 'components/organisms/PlayerList';
 import { useState } from 'react';
 
 export const Home: React.FC = () => {
@@ -23,7 +19,7 @@ export const Home: React.FC = () => {
   };
   return (
     <FlexColumn>
-      <MainHeader />
+      <Header mainPage />
       <SelectMenu />
       <PlayerList />
       <HorizontallyCenteredFlexbox>

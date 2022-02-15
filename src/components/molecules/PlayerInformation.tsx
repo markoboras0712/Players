@@ -1,18 +1,14 @@
 import {
-  Description,
-  Heading,
   Paragraph,
-  PlayerContainer,
   PlayerDetailContainer,
   PlayerDetailHeading,
-  PlayerDetailParagraph,
 } from 'components';
 
 export const PlayerInformation: React.FC = () => {
   return (
     <PlayerDetailContainer>
-      <PlayerDetailParagraph>Player name</PlayerDetailParagraph>
-      <PlayerDetailHeading>Player Description</PlayerDetailHeading>
+      <Paragraph color="gray">Player name</Paragraph>
+      <PlayerDetailHeading color="gray">Player Description</PlayerDetailHeading>
     </PlayerDetailContainer>
   );
 };

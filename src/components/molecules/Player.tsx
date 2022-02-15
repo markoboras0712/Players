@@ -1,12 +1,9 @@
-import { Link } from '@reach/router';
 import {
   Anchor,
   Avatar,
   FlexColumn,
-  FlexRow,
   Heading,
   Paragraph,
-  PlayerContainer,
   PlayerFooterContainer,
   PlayerInformationContainer,
   Thumbnail,
@@ -16,7 +13,7 @@ import { Routes } from 'router';
 export const Player: React.FC = () => {
   return (
     <Anchor to={Routes.Player}>
-      <PlayerContainer>
+      <FlexColumn>
         <Thumbnail src={require('./messi.jpg')} />
         <PlayerFooterContainer>
           <Avatar src={require('./argentina.jpg')} />
@@ -25,7 +22,7 @@ export const Player: React.FC = () => {
             <Paragraph>Player position</Paragraph>
           </PlayerInformationContainer>
         </PlayerFooterContainer>
-      </PlayerContainer>
+      </FlexColumn>
     </Anchor>
   );
 };
