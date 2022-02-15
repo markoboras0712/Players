@@ -8,6 +8,7 @@ import {
   Input,
   InputWithLabel,
   Label,
+  LoadingButton,
   NumberInputWithLabel,
 } from 'components';
 import React, { useState } from 'react';
@@ -15,8 +16,13 @@ import ReactFlagsSelect from 'react-flags-select';
 
 export const CreatePlayerForm: React.FC = () => {
   const [selected, setSelected] = useState('');
-  const handleSubmit = () => {
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleOnClick = (event: React.FormEvent) => {
+    event.preventDefault();
     console.log('Selected', selected);
+    setIsLoading(true);
+    setTimeout(() => setIsLoading(false), 5000);
   };
   return (
     <CenteredFlexbox>
@@ -35,9 +41,11 @@ export const CreatePlayerForm: React.FC = () => {
           />
           <FileInputWithLabel label="Photo" placeholder="Your photo" />
           <HorizontallyCenteredFlexbox>
-            <Button type="button" onClick={handleSubmit}>
-              Create player
-            </Button>
+            <LoadingButton
+              text="Load me"
+              loading={isLoading}
+              onClick={handleOnClick}
+            />
           </HorizontallyCenteredFlexbox>
         </FlexColumn>
       </Form>

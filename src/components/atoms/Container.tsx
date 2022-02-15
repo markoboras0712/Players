@@ -4,7 +4,7 @@ export const CenteredWrapper = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 50px;
-  padding: 80px 20px;
+  padding: 80px 20px 50px;
   justify-content: space-around;
   align-content: space-evenly;
   @media (max-width: 1000px) {

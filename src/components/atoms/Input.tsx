@@ -19,7 +19,7 @@ export const SearchInput = styled.input.attrs(() => ({
 
 export const Input = styled.input.attrs((props) => ({
   type: 'text',
-  size: props.size || '1em',
+  size: props.size || '0.7em',
 }))`
   border: 2px solid white;
   border-radius: 5px;
@@ -30,7 +30,7 @@ export const Input = styled.input.attrs((props) => ({
 
 export const NumberInput = styled.input.attrs((props) => ({
   type: 'number',
-  size: props.size || '1em',
+  size: props.size || '0.7em',
 }))`
   border: 2px solid white;
   border-radius: 5px;
@@ -40,7 +40,7 @@ export const NumberInput = styled.input.attrs((props) => ({
 
 export const FileInput = styled.input.attrs((props) => ({
   type: 'file',
-  size: props.size || '1em',
+  size: props.size || '0.7em',
 }))`
   border: 2px solid white;
   border-radius: 5px;
