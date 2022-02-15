@@ -1,0 +1,2487 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 11,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "5qacKgV8F2TTo9W53S73GC",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:22:10.041Z",
+        "updatedAt": "2022-01-24T14:26:00.630Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Sébastien Debs",
+        "id": 8,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "4LQHAyifoQMEp0ahSjiBKR",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:21:07.553Z",
+            "updatedAt": "2022-01-21T14:21:07.553Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "FR_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/4LQHAyifoQMEp0ahSjiBKR/48c1c596fd25a9f0db555f54887ea1ae/fr.png",
+              "details": {
+                "size": 446,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "fr.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "76paLHoqI6fE2NHxG6nqlD",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:21:57.465Z",
+            "updatedAt": "2022-01-21T14:21:57.465Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Sébastien Debs",
+            "description": "Sébastien Debs Photo",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/76paLHoqI6fE2NHxG6nqlD/b255f03d89a09e8e30e8d14967cb5f09/7ckngMad_EPICENTER_Major_2019.jpeg",
+              "details": {
+                "size": 137254,
+                "image": {
+                  "width": 1200,
+                  "height": 800
+                }
+              },
+              "fileName": "7ckngMad_EPICENTER_Major_2019.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "Ceb",
+        "totalEarnings": 5773909,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Offlane"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "19WGuPkQAvOmVmSLcnABbK",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:34:07.406Z",
+        "updatedAt": "2022-01-24T14:25:46.335Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Danil Ishutin",
+        "id": 1,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "3mOMUGP5peAVSa3DFyqnbN",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:33:19.290Z",
+            "updatedAt": "2022-01-21T14:33:19.290Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "UA_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/3mOMUGP5peAVSa3DFyqnbN/5e4e8efae494292bdff44bd0b19fd31c/ua.png",
+              "details": {
+                "size": 399,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "ua.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "2veYblhtcmAGQSAoS8Wv2b",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:34:03.020Z",
+            "updatedAt": "2022-01-21T14:34:03.020Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Danil Ishutin",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/2veYblhtcmAGQSAoS8Wv2b/36f3c5d8fc59e1673cbb4aec1bbaf57d/600px-Dendi_DHS_2015.jpeg",
+              "details": {
+                "size": 28915,
+                "image": {
+                  "width": 600,
+                  "height": 401
+                }
+              },
+              "fileName": "600px-Dendi_DHS_2015.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "Dendi",
+        "totalEarnings": 804815,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Mid"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "5hg8eVjlJS53eypPeWfzWN",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:32:23.934Z",
+        "updatedAt": "2022-01-24T14:25:33.095Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Zhang Ning",
+        "id": 2,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "5paNV3g9C50X0BxlJqGomE",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:24:54.988Z",
+            "updatedAt": "2022-01-21T14:24:54.988Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "CN_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/5paNV3g9C50X0BxlJqGomE/f113ba9260880ce13378f91ba6996fba/cn.png",
+              "details": {
+                "size": 469,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "cn.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "14AH9EG3pMxnONC2gstYfA",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:32:15.053Z",
+            "updatedAt": "2022-01-21T14:32:15.053Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Zhang Ning",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/14AH9EG3pMxnONC2gstYfA/573bc7f71271dbc1a65be4d30a250db9/600px-Xiao8-EHOME_2018.jpeg",
+              "details": {
+                "size": 48484,
+                "image": {
+                  "width": 600,
+                  "height": 849
+                }
+              },
+              "fileName": "600px-Xiao8-EHOME_2018.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "xiao8",
+        "totalEarnings": 1869994,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Coach"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "4dEROGc7JT95uCNr5O0Myr",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:30:57.906Z",
+        "updatedAt": "2022-01-24T14:25:20.890Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Peter Dager",
+        "id": 3,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "wpqZN9ZowuHFcpljPEbug",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:28:27.119Z",
+            "updatedAt": "2022-01-21T14:28:27.119Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "US_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/wpqZN9ZowuHFcpljPEbug/611a847be8874e28eda1459f91f91629/us.png",
+              "details": {
+                "size": 488,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "us.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "13XkymHbb5I89PmQuHhxSN",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:30:53.577Z",
+            "updatedAt": "2022-01-21T14:30:53.577Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Peter Dager",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/13XkymHbb5I89PmQuHhxSN/8d5a72883bc0747acf3feb621878530a/562px-Ppd_ESL_Frankfurt_2015.jpeg",
+              "details": {
+                "size": 27461,
+                "image": {
+                  "width": 562,
+                  "height": 375
+                }
+              },
+              "fileName": "562px-Ppd_ESL_Frankfurt_2015.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "PPD",
+        "totalEarnings": 3001619,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Suppport"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "5edXdnTZkc61OQq65yc5go",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:29:51.046Z",
+        "updatedAt": "2022-01-24T14:25:08.075Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Clinton Loomis",
+        "id": 4,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "wpqZN9ZowuHFcpljPEbug",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:28:27.119Z",
+            "updatedAt": "2022-01-21T14:28:27.119Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "US_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/wpqZN9ZowuHFcpljPEbug/611a847be8874e28eda1459f91f91629/us.png",
+              "details": {
+                "size": 488,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "us.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "1RkTekDt1wfBuwBaOtnv0B",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:29:46.956Z",
+            "updatedAt": "2022-01-21T14:29:46.956Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Fear",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/1RkTekDt1wfBuwBaOtnv0B/eef509d9c258941b6a145573d70ba47c/fear_EG_.0.jpg",
+              "details": {
+                "size": 52273,
+                "image": {
+                  "width": 1200,
+                  "height": 800
+                }
+              },
+              "fileName": "fear_EG_.0.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "Fear",
+        "totalEarnings": 2562957,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Support"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "4iKUfOnGJiXCeX6A4MARzN",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:27:28.071Z",
+        "updatedAt": "2022-01-24T14:24:53.554Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Zhang Ruida",
+        "id": 5,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "5paNV3g9C50X0BxlJqGomE",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:24:54.988Z",
+            "updatedAt": "2022-01-21T14:24:54.988Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "CN_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/5paNV3g9C50X0BxlJqGomE/f113ba9260880ce13378f91ba6996fba/cn.png",
+              "details": {
+                "size": 469,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "cn.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "2vq5BtQ0cv9PnflstKEvws",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:27:23.296Z",
+            "updatedAt": "2022-01-21T14:27:23.296Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Faith_bian",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/2vq5BtQ0cv9PnflstKEvws/c8bb7fdfeb5be7d8cb1f7cd912005b22/563px-Faith_bian_The_International_2021.jpeg",
+              "details": {
+                "size": 25109,
+                "image": {
+                  "width": 563,
+                  "height": 375
+                }
+              },
+              "fileName": "563px-Faith_bian_The_International_2021.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "Faith_bian",
+        "totalEarnings": 3241113,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Support"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "4l8H6lSd6X7bG5gq4sdJTL",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:26:12.758Z",
+        "updatedAt": "2022-01-24T14:24:40.032Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Wang Chunyu",
+        "id": 6,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "5paNV3g9C50X0BxlJqGomE",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:24:54.988Z",
+            "updatedAt": "2022-01-21T14:24:54.988Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "CN_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/5paNV3g9C50X0BxlJqGomE/f113ba9260880ce13378f91ba6996fba/cn.png",
+              "details": {
+                "size": 469,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "cn.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "1h5yvGFnqug6r2WIrdtpUB",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:25:56.152Z",
+            "updatedAt": "2022-01-21T14:25:56.152Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Ame",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/1h5yvGFnqug6r2WIrdtpUB/fcbb540b3f05370ddf71910c403efd0a/p7639.png",
+              "details": {
+                "size": 331638,
+                "image": {
+                  "width": 411,
+                  "height": 600
+                }
+              },
+              "fileName": "p7639.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "nickname": "Ame",
+        "totalEarnings": 3406591,
+        "description": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "value": "Lorem Ipsum",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "position": "Carry"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "Hs3BNkB8z5CFd8mtWUVZU",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:23:47.141Z",
+        "updatedAt": "2022-01-24T14:24:24.170Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Topias Taavitsainen",
+        "id": 7,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "6rCH7f2App87MMBAKB3RQP",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:17:01.147Z",
+            "updatedAt": "2022-01-21T14:17:01.147Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "FI_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/6rCH7f2App87MMBAKB3RQP/f7d38a648f4fa61afe010fa605c2628f/fi.png",
+              "details": {
+                "size": 405,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "fi.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "7HHyw37zW6rAcSPVscwpzS",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:23:42.695Z",
+            "updatedAt": "2022-01-21T14:23:42.695Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Topson ",
+            "description": "Topson photo",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/7HHyw37zW6rAcSPVscwpzS/354093ec5ef8c4e99a73c2672228ce81/tops-website.jpeg",
+              "details": {
+                "size": 499842,
+                "image": {
+                  "width": 1920,
+                  "height": 1080
+                }
+              },
+              "fileName": "tops-website.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "Topson",
+        "totalEarnings": 5690417,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Mid"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "7oL1kY4lEeAUlAAfDvHBw0",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:20:34.230Z",
+        "updatedAt": "2022-01-24T14:23:51.496Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Anathan Pham",
+        "id": 9,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "6jRztyFeRQuxONeMYyBGV3",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:19:14.253Z",
+            "updatedAt": "2022-01-21T14:19:14.253Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "AU_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/6jRztyFeRQuxONeMYyBGV3/90660c57cdbef2799cacb40535fcce12/au.png",
+              "details": {
+                "size": 614,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "au.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "ijs531eQTEoEkj7aBWtC5",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:20:21.546Z",
+            "updatedAt": "2022-01-21T14:20:21.546Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Anathan Pham",
+            "description": "Anathan Pham photo",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/ijs531eQTEoEkj7aBWtC5/6ff6f46b547ba381f1ac7405652a152e/ex-og-carry-ana-is-playing-dota-2-hints-at-return-to-competition.webp",
+              "details": {
+                "size": 101802,
+                "image": {
+                  "width": 620,
+                  "height": 350
+                }
+              },
+              "fileName": "ex-og-carry-ana-is-playing-dota-2-hints-at-return-to-competition.webp",
+              "contentType": "image/webp"
+            }
+          }
+        },
+        "nickname": "AnaGod",
+        "totalEarnings": 6004411,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Carry"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "1pxJhWSe3tnyty7RQ9QfwS",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:18:09.148Z",
+        "updatedAt": "2022-01-24T14:23:38.690Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Jesse Vainikka",
+        "id": 10,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "6rCH7f2App87MMBAKB3RQP",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:17:01.147Z",
+            "updatedAt": "2022-01-21T14:17:01.147Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "FI_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/6rCH7f2App87MMBAKB3RQP/f7d38a648f4fa61afe010fa605c2628f/fi.png",
+              "details": {
+                "size": 405,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "fi.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "3VcAFPc19baSKArUXXdzmi",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:17:55.474Z",
+            "updatedAt": "2022-01-21T14:17:55.474Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Jesse Vainikka",
+            "description": "Jesse Vainikka photo",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/3VcAFPc19baSKArUXXdzmi/16325e58acb22fa8b7f1f74305b0190f/600px-JerAx_ESL_One_Katowice_2019.jpeg",
+              "details": {
+                "size": 41282,
+                "image": {
+                  "width": 600,
+                  "height": 375
+                }
+              },
+              "fileName": "600px-JerAx_ESL_One_Katowice_2019.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "Jerax",
+        "totalEarnings": 6457400,
+        "description": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "value": "Lorem Ipsum",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "position": "Support"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ojpqlra32uom"
+          }
+        },
+        "id": "4rPjJgVtuDVNIyOhNlyn3i",
+        "type": "Entry",
+        "createdAt": "2022-01-21T14:15:27.908Z",
+        "updatedAt": "2022-01-24T14:23:24.608Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "players"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Johan Sundstein",
+        "id": 11,
+        "countryFlag": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "4KyfSDGFgjKj6U7NpO2jJT",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:13:41.495Z",
+            "updatedAt": "2022-01-21T14:13:41.495Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "DK_FLAG",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/4KyfSDGFgjKj6U7NpO2jJT/58fd7a870b941a85f62654d704b52e58/dk.png",
+              "details": {
+                "size": 416,
+                "image": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "fileName": "dk.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "photo": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "ojpqlra32uom"
+              }
+            },
+            "id": "369S2Ypt4M93muuLgxQhk1",
+            "type": "Asset",
+            "createdAt": "2022-01-21T14:14:39.107Z",
+            "updatedAt": "2022-01-21T14:14:39.107Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Johan Sundstein",
+            "description": "Johan Sundstein photo",
+            "file": {
+              "url": "//images.ctfassets.net/ojpqlra32uom/369S2Ypt4M93muuLgxQhk1/37e9a163d6f09425f21e20160cbe039c/The_International_2018__42413912070___cropped_.jpeg",
+              "details": {
+                "size": 487933,
+                "image": {
+                  "width": 1200,
+                  "height": 1405
+                }
+              },
+              "fileName": "The_International_2018_(42413912070)_(cropped).jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "nickname": "N0tail",
+        "totalEarnings": 7172111,
+        "description": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Lorem Ipsum",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        },
+        "position": "Support"
+      }
+    }
+  ],
+  "includes": {
+    "Asset": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "13XkymHbb5I89PmQuHhxSN",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:30:53.577Z",
+          "updatedAt": "2022-01-21T14:30:53.577Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Peter Dager",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/13XkymHbb5I89PmQuHhxSN/8d5a72883bc0747acf3feb621878530a/562px-Ppd_ESL_Frankfurt_2015.jpeg",
+            "details": {
+              "size": 27461,
+              "image": {
+                "width": 562,
+                "height": 375
+              }
+            },
+            "fileName": "562px-Ppd_ESL_Frankfurt_2015.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "14AH9EG3pMxnONC2gstYfA",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:32:15.053Z",
+          "updatedAt": "2022-01-21T14:32:15.053Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Zhang Ning",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/14AH9EG3pMxnONC2gstYfA/573bc7f71271dbc1a65be4d30a250db9/600px-Xiao8-EHOME_2018.jpeg",
+            "details": {
+              "size": 48484,
+              "image": {
+                "width": 600,
+                "height": 849
+              }
+            },
+            "fileName": "600px-Xiao8-EHOME_2018.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "1RkTekDt1wfBuwBaOtnv0B",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:29:46.956Z",
+          "updatedAt": "2022-01-21T14:29:46.956Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Fear",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/1RkTekDt1wfBuwBaOtnv0B/eef509d9c258941b6a145573d70ba47c/fear_EG_.0.jpg",
+            "details": {
+              "size": 52273,
+              "image": {
+                "width": 1200,
+                "height": 800
+              }
+            },
+            "fileName": "fear_EG_.0.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "1h5yvGFnqug6r2WIrdtpUB",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:25:56.152Z",
+          "updatedAt": "2022-01-21T14:25:56.152Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Ame",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/1h5yvGFnqug6r2WIrdtpUB/fcbb540b3f05370ddf71910c403efd0a/p7639.png",
+            "details": {
+              "size": 331638,
+              "image": {
+                "width": 411,
+                "height": 600
+              }
+            },
+            "fileName": "p7639.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "2veYblhtcmAGQSAoS8Wv2b",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:34:03.020Z",
+          "updatedAt": "2022-01-21T14:34:03.020Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Danil Ishutin",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/2veYblhtcmAGQSAoS8Wv2b/36f3c5d8fc59e1673cbb4aec1bbaf57d/600px-Dendi_DHS_2015.jpeg",
+            "details": {
+              "size": 28915,
+              "image": {
+                "width": 600,
+                "height": 401
+              }
+            },
+            "fileName": "600px-Dendi_DHS_2015.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "2vq5BtQ0cv9PnflstKEvws",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:27:23.296Z",
+          "updatedAt": "2022-01-21T14:27:23.296Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Faith_bian",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/2vq5BtQ0cv9PnflstKEvws/c8bb7fdfeb5be7d8cb1f7cd912005b22/563px-Faith_bian_The_International_2021.jpeg",
+            "details": {
+              "size": 25109,
+              "image": {
+                "width": 563,
+                "height": 375
+              }
+            },
+            "fileName": "563px-Faith_bian_The_International_2021.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "369S2Ypt4M93muuLgxQhk1",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:14:39.107Z",
+          "updatedAt": "2022-01-21T14:14:39.107Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Johan Sundstein",
+          "description": "Johan Sundstein photo",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/369S2Ypt4M93muuLgxQhk1/37e9a163d6f09425f21e20160cbe039c/The_International_2018__42413912070___cropped_.jpeg",
+            "details": {
+              "size": 487933,
+              "image": {
+                "width": 1200,
+                "height": 1405
+              }
+            },
+            "fileName": "The_International_2018_(42413912070)_(cropped).jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "3VcAFPc19baSKArUXXdzmi",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:17:55.474Z",
+          "updatedAt": "2022-01-21T14:17:55.474Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Jesse Vainikka",
+          "description": "Jesse Vainikka photo",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/3VcAFPc19baSKArUXXdzmi/16325e58acb22fa8b7f1f74305b0190f/600px-JerAx_ESL_One_Katowice_2019.jpeg",
+            "details": {
+              "size": 41282,
+              "image": {
+                "width": 600,
+                "height": 375
+              }
+            },
+            "fileName": "600px-JerAx_ESL_One_Katowice_2019.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "3mOMUGP5peAVSa3DFyqnbN",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:33:19.290Z",
+          "updatedAt": "2022-01-21T14:33:19.290Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "UA_FLAG",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/3mOMUGP5peAVSa3DFyqnbN/5e4e8efae494292bdff44bd0b19fd31c/ua.png",
+            "details": {
+              "size": 399,
+              "image": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "fileName": "ua.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "4KyfSDGFgjKj6U7NpO2jJT",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:13:41.495Z",
+          "updatedAt": "2022-01-21T14:13:41.495Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "DK_FLAG",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/4KyfSDGFgjKj6U7NpO2jJT/58fd7a870b941a85f62654d704b52e58/dk.png",
+            "details": {
+              "size": 416,
+              "image": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "fileName": "dk.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "4LQHAyifoQMEp0ahSjiBKR",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:21:07.553Z",
+          "updatedAt": "2022-01-21T14:21:07.553Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "FR_FLAG",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/4LQHAyifoQMEp0ahSjiBKR/48c1c596fd25a9f0db555f54887ea1ae/fr.png",
+            "details": {
+              "size": 446,
+              "image": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "fileName": "fr.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "5paNV3g9C50X0BxlJqGomE",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:24:54.988Z",
+          "updatedAt": "2022-01-21T14:24:54.988Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "CN_FLAG",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/5paNV3g9C50X0BxlJqGomE/f113ba9260880ce13378f91ba6996fba/cn.png",
+            "details": {
+              "size": 469,
+              "image": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "fileName": "cn.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "6jRztyFeRQuxONeMYyBGV3",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:19:14.253Z",
+          "updatedAt": "2022-01-21T14:19:14.253Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "AU_FLAG",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/6jRztyFeRQuxONeMYyBGV3/90660c57cdbef2799cacb40535fcce12/au.png",
+            "details": {
+              "size": 614,
+              "image": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "fileName": "au.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "6rCH7f2App87MMBAKB3RQP",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:17:01.147Z",
+          "updatedAt": "2022-01-21T14:17:01.147Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "FI_FLAG",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/6rCH7f2App87MMBAKB3RQP/f7d38a648f4fa61afe010fa605c2628f/fi.png",
+            "details": {
+              "size": 405,
+              "image": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "fileName": "fi.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "76paLHoqI6fE2NHxG6nqlD",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:21:57.465Z",
+          "updatedAt": "2022-01-21T14:21:57.465Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Sébastien Debs",
+          "description": "Sébastien Debs Photo",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/76paLHoqI6fE2NHxG6nqlD/b255f03d89a09e8e30e8d14967cb5f09/7ckngMad_EPICENTER_Major_2019.jpeg",
+            "details": {
+              "size": 137254,
+              "image": {
+                "width": 1200,
+                "height": 800
+              }
+            },
+            "fileName": "7ckngMad_EPICENTER_Major_2019.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "7HHyw37zW6rAcSPVscwpzS",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:23:42.695Z",
+          "updatedAt": "2022-01-21T14:23:42.695Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Topson ",
+          "description": "Topson photo",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/7HHyw37zW6rAcSPVscwpzS/354093ec5ef8c4e99a73c2672228ce81/tops-website.jpeg",
+            "details": {
+              "size": 499842,
+              "image": {
+                "width": 1920,
+                "height": 1080
+              }
+            },
+            "fileName": "tops-website.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "ijs531eQTEoEkj7aBWtC5",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:20:21.546Z",
+          "updatedAt": "2022-01-21T14:20:21.546Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Anathan Pham",
+          "description": "Anathan Pham photo",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/ijs531eQTEoEkj7aBWtC5/6ff6f46b547ba381f1ac7405652a152e/ex-og-carry-ana-is-playing-dota-2-hints-at-return-to-competition.webp",
+            "details": {
+              "size": 101802,
+              "image": {
+                "width": 620,
+                "height": 350
+              }
+            },
+            "fileName": "ex-og-carry-ana-is-playing-dota-2-hints-at-return-to-competition.webp",
+            "contentType": "image/webp"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "ojpqlra32uom"
+            }
+          },
+          "id": "wpqZN9ZowuHFcpljPEbug",
+          "type": "Asset",
+          "createdAt": "2022-01-21T14:28:27.119Z",
+          "updatedAt": "2022-01-21T14:28:27.119Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "US_FLAG",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/ojpqlra32uom/wpqZN9ZowuHFcpljPEbug/611a847be8874e28eda1459f91f91629/us.png",
+            "details": {
+              "size": 488,
+              "image": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "fileName": "us.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    ]
+  }
+}

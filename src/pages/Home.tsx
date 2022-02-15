@@ -6,10 +6,17 @@ import {
   Header,
   PlayerList,
 } from 'components';
-import { useState } from 'react';
+import { client, fetchPlayers } from 'store';
+import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
 
 export const Home: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchPlayers());
+  }, []);
 
   const handleOnClick = () => {
     if (isLoading) return;
