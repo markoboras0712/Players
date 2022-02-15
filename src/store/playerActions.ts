@@ -21,20 +21,9 @@ export const fetchPlayers = createAsyncThunk('fetchPlayers', async () => {
       countryFlag: item.fields.countryFlag.fields.file.url,
       photo: item.fields.photo.fields.file.url,
     }));
-    console.log('All players', allPlayers);
     return allPlayers;
   } catch (error) {
     console.log('fetch items error', error);
     throw new Error('did not fetch items');
   }
 });
-
-/** name: string;
-  nickname: string;
-  id: string;
-  position: string;
-  totalEarnings: number;
-  items[2].fields.description.content[0].content
-  description: string; // items[1].fields.description.content[0].content[0].value
-  countryFlag?: string; // items[1].fields.countryFlag.fields.file.url
-  photo?: string; // items[1].fields.photo.fields.file.url */

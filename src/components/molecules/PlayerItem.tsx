@@ -10,16 +10,28 @@ import {
 } from 'components';
 import { Routes } from 'router';
 
-export const Player: React.FC = () => {
+interface Props {
+  photo: string;
+  countryFlag: string;
+  name: string;
+  position: string;
+}
+
+export const PlayerItem: React.FC<Props> = ({
+  photo,
+  countryFlag,
+  name,
+  position,
+}) => {
   return (
     <Anchor to={Routes.Player}>
       <FlexColumn>
-        <Thumbnail src={require('./messi.jpg')} />
+        <Thumbnail src={photo} />
         <PlayerFooterContainer>
-          <Avatar src={require('./argentina.jpg')} />
+          <Avatar src={countryFlag} />
           <PlayerInformationContainer>
-            <Heading>Player position</Heading>
-            <Paragraph>Player position</Paragraph>
+            <Heading>{name}</Heading>
+            <Paragraph>{position}</Paragraph>
           </PlayerInformationContainer>
         </PlayerFooterContainer>
       </FlexColumn>

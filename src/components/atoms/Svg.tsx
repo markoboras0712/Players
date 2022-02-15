@@ -10,10 +10,3 @@ export const PlusSvg = styled(PlusIcon)`
     display: none;
   }
 `;
-
-export const SearchSvg = styled(SearchIcon)`
-  cursor: pointer;
-  @media (max-width: 720px) {
-    display: none;
-  }
-`;

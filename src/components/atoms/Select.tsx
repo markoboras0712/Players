@@ -1,3 +1,6 @@
+import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { reset, sortAscending, sortDescending } from 'store';
 import styled from 'styled-components';
 
 export const Select = styled.select`
@@ -18,8 +21,25 @@ export const SelectMenu: React.FC = () => {
     { value: 'descdending', text: 'Sort Descdending(Z-A)' },
     { value: 'reset', text: 'Reset' },
   ];
+  const dispatch = useDispatch();
+  const [selectedOption, setSelectedOption] = useState(options[2].value);
+  console.log('selected option', selectedOption);
+  useEffect(() => {
+    if (selectedOption === 'ascending') {
+      dispatch(sortAscending());
+    }
+    if (selectedOption === 'descdending') {
+      dispatch(sortDescending());
+    }
+    if (selectedOption === 'reset') {
+      dispatch(reset());
+    }
+  }, [selectedOption]);
   return (
-    <Select>
+    <Select
+      value={selectedOption}
+      onChange={(e) => setSelectedOption(e.target.value)}
+    >
       {options.map(({ value, text }) => (
         <option value={value} key={value}>
           {text}

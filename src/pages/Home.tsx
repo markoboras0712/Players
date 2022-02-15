@@ -6,17 +6,26 @@ import {
   Header,
   PlayerList,
 } from 'components';
-import { client, fetchPlayers } from 'store';
+import {
+  client,
+  fetchPlayers,
+  reset,
+  selectAllPlayers,
+  sortAscending,
+  sortDescending,
+} from 'store';
 import { useEffect, useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 export const Home: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const dispatch = useDispatch();
+  const players = useSelector(selectAllPlayers);
 
   useEffect(() => {
     dispatch(fetchPlayers());
   }, []);
+  console.log('aLL PLAYERS', players);
 
   const handleOnClick = () => {
     if (isLoading) return;
@@ -28,7 +37,7 @@ export const Home: React.FC = () => {
     <FlexColumn>
       <Header mainPage />
       <SelectMenu />
-      <PlayerList />
+      <PlayerList players={players} />
       <HorizontallyCenteredFlexbox>
         <LoadingButton
           text="Load more"

@@ -59,6 +59,7 @@ export const PlayerFooterContainer = styled(FlexRow)`
   padding: 10px;
   @media (max-width: 1000px) {
     width: 250px;
+    height: 110px;
   }
 `;
 
