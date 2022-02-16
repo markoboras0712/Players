@@ -4,11 +4,16 @@ import {
   PlayerDetailHeading,
 } from 'components';
 
-export const PlayerInformation: React.FC = () => {
+interface Props {
+  name: string;
+  description: string;
+}
+
+export const PlayerInformation: React.FC<Props> = ({ name, description }) => {
   return (
     <PlayerDetailContainer>
-      <Paragraph color="gray">Player name</Paragraph>
-      <PlayerDetailHeading color="gray">Player Description</PlayerDetailHeading>
+      <Paragraph color="gray">{name}</Paragraph>
+      <PlayerDetailHeading color="gray">{description}</PlayerDetailHeading>
     </PlayerDetailContainer>
   );
 };

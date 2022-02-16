@@ -15,6 +15,9 @@ interface Props {
   countryFlag: string;
   name: string;
   position: string;
+  nickname: string;
+  id: string;
+  description: string;
 }
 
 export const PlayerItem: React.FC<Props> = ({
@@ -22,9 +25,16 @@ export const PlayerItem: React.FC<Props> = ({
   countryFlag,
   name,
   position,
+  nickname,
+  id,
+  description,
 }) => {
   return (
-    <Anchor to={Routes.Player}>
+    <Anchor
+      to={nickname === 'Dendi' ? Routes.Player : Routes.NotFound}
+      key={id}
+      state={{ myState: { name, description } }}
+    >
       <FlexColumn>
         <Thumbnail src={photo} />
         <PlayerFooterContainer>

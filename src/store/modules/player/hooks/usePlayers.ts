@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { Player, selectKeyword } from 'store';
+import { Player, selectAllPlayers, selectKeyword } from 'store';
 
 export const sortArrayByKeyAscending = (playerA: Player, playerB: Player) => {
   if (playerA.name < playerB.name) {
@@ -21,14 +21,18 @@ export const sortArrayByKeyDescending = (playerA: Player, playerB: Player) => {
   return 0;
 };
 
+const useFilter = (keyword: string, players: Player[]) =>
+  !!keyword.length
+    ? players.filter(({ name }) =>
+        name?.toLowerCase().includes(keyword.toLowerCase()),
+      )
+    : players;
 
 export const usePlayers = () => {
-  const useFilter = (keyword: string, players: Player[]) =>
-    !!keyword.length
-      ? players.filter(({ name }) =>
-          name?.toLowerCase().includes(keyword.toLowerCase()),
-        )
-      : players;
+  const keyword = useSelector(selectKeyword);
+  const players = useSelector(selectAllPlayers);
 
-  return { useFilter };
+  const filteredPlayers = useFilter(keyword, players);
+
+  return { filteredPlayers };
 };

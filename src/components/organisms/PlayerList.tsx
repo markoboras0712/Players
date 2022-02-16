@@ -1,31 +1,86 @@
-import { GridContainer, FlexRow, PlayerItem } from 'components';
-import { useSelector } from 'react-redux';
-import { Player, selectKeyword, usePlayers } from 'store';
-
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+import {
+  GridContainer,
+  PlayerItem,
+  HorizontallyCenteredFlexbox,
+  LoadingButton,
+  FlexColumn,
+} from 'components';
+import { useMemo, useState } from 'react';
+import { Player, usePlayers } from 'store';
 
 interface Props {
   players: Player[];
 }
 
 export const PlayerList: React.FC<Props> = ({ players }) => {
-  const keyword = useSelector(selectKeyword);
-  const { useFilter } = usePlayers();
-  const filteredPlayers = useFilter(keyword, players);
+  const { filteredPlayers } = usePlayers();
+  const [numberOfPlayersShown, setNumberOfPlayersShown] = useState(6);
+  const [isLoading, setIsLoading] = useState(false);
 
-  return (
-    <GridContainer>
-      {filteredPlayers.map(
-        ({ id, countryFlag, name, photo, position }: Player) => (
+  const showMore = () => {
+    setIsLoading(true);
+    if (numberOfPlayersShown === players.length) {
+      setNumberOfPlayersShown(6);
+      setIsLoading(false);
+      return;
+    }
+    setTimeout(() => {
+      setIsLoading(false);
+      if (numberOfPlayersShown + 3 <= players.length) {
+        setNumberOfPlayersShown(numberOfPlayersShown + 3);
+      } else {
+        setNumberOfPlayersShown(players.length);
+      }
+    }, 1000);
+  };
+
+  const itemsToShow = useMemo(() => {
+    return filteredPlayers
+      .slice(0, numberOfPlayersShown)
+      .map(
+        ({
+          id,
+          countryFlag,
+          name,
+          photo,
+          position,
+          nickname,
+          description,
+        }: Player) => (
           <PlayerItem
             key={id}
+            id={id}
             countryFlag={countryFlag}
             name={name}
             photo={photo}
+            description={description}
             position={position}
+            nickname={nickname}
           />
         ),
-      )}
-    </GridContainer>
+      );
+  }, [filteredPlayers, numberOfPlayersShown]);
+
+  return (
+    <FlexColumn>
+      <GridContainer>
+        {itemsToShow.length ? itemsToShow : 'Loading...'}
+      </GridContainer>
+      <HorizontallyCenteredFlexbox>
+        {numberOfPlayersShown === players.length ? (
+          <LoadingButton
+            text="Return to first 6"
+            onClick={showMore}
+            loading={isLoading}
+          />
+        ) : (
+          <LoadingButton
+            text="Load more"
+            onClick={showMore}
+            loading={isLoading}
+          />
+        )}
+      </HorizontallyCenteredFlexbox>
+    </FlexColumn>
   );
 };
