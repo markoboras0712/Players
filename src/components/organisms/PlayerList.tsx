@@ -22,6 +22,7 @@ export const PlayerList: React.FC<Props> = ({ players }) => {
     if (numberOfPlayersShown === players.length) {
       setNumberOfPlayersShown(6);
       setIsLoading(false);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
     setTimeout(() => {
@@ -31,7 +32,7 @@ export const PlayerList: React.FC<Props> = ({ players }) => {
       } else {
         setNumberOfPlayersShown(players.length);
       }
-    }, 1000);
+    }, 700);
   };
 
   const itemsToShow = useMemo(() => {
