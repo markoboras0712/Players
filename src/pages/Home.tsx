@@ -7,7 +7,6 @@ import {
   PlayerList,
 } from 'components';
 import {
-  client,
   fetchPlayers,
   reset,
   selectAllPlayers,

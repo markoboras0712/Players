@@ -8,6 +8,10 @@ export const Thumbnail = styled.img`
     width: 250px;
     height: 250px;
   }
+  @media (min-width: 1350px) {
+    width: 440px;
+    height: 250px;
+  }
 `;
 
 export const Avatar = styled.img`

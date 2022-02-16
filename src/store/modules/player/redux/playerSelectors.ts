@@ -1,5 +1,6 @@
 import { createDraftSafeSelector } from '@reduxjs/toolkit';
-import { RootState } from 'store';
+import { RootState } from 'store/rootReducer';
+
 
 export const playersSelector = (state: RootState) => state.players;
 

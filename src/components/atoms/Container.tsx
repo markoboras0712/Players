@@ -12,11 +12,11 @@ const FlexColumn = styled.div`
 export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 50px;
+  grid-gap: 80px;
   padding: 80px 20px 50px;
   justify-content: space-around;
   align-content: space-evenly;
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     grid-gap: 25px;
   }
   @media (max-width: 810px) {
@@ -59,6 +59,10 @@ export const PlayerFooterContainer = styled(FlexRow)`
   padding: 10px;
   @media (max-width: 1000px) {
     width: 250px;
+    height: 110px;
+  }
+  @media (min-width: 1350px) {
+    width: 440px;
     height: 110px;
   }
 `;

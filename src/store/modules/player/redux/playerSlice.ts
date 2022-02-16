@@ -4,8 +4,8 @@ import {
   Player,
   sortArrayByKeyAscending,
   sortArrayByKeyDescending,
+  AllPlayers,
 } from 'store';
-import { AllPlayers } from 'store/Player';
 
 const initialState: AllPlayers = {
   allPlayers: [],

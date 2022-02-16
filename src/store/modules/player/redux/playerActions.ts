@@ -1,5 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { client, Player } from 'store';
+import { Player } from 'store';
+import { client } from 'store/client';
 
 export const fetchPlayers = createAsyncThunk('fetchPlayers', async () => {
   try {
